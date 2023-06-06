@@ -1,3 +1,7 @@
+variable "github_owner" {
+  type = string
+}
+
 provider "github" {
   owner = var.github_owner
 }
